@@ -17,7 +17,7 @@ SecureShare is a lightweight, high-performance file transfer utility built with 
 | :--- | :--- |
 | **Language** | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | **Concurrency** | `asyncio` (Non-blocking I/O) |
-| **Networking** | Raw TCP Sockets |
+| **Networking** | Custom TCP Sockets |
 | **Framing** | `struct` (C-style Binary Packing) |
 | **Tunneling** | `ngrok` (NAT Traversal) |
 
