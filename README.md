@@ -1,5 +1,3 @@
-# SecureShare
-TCP Server File Transfer System
 
 #  SecureShare: Asynchronous TCP Relay
 
