@@ -1,0 +1,16 @@
+import struct
+
+HOST = '0.0.0.0'
+PORT = 8080
+INFO = 512
+HEADER_FORMAT = "! B B B 6s B"
+ROLE_SENDER = 0x01
+ROLE_RECEIVER = 0x02
+PROTOCOL_VERSION  = 0x01
+HEADER_SIZE = struct.calcsize(HEADER_FORMAT)
+
+import asyncio
+
+
+SESSION_MANAGER = {}
+SESSION_LOCK = asyncio.Lock()
